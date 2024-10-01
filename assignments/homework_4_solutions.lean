@@ -11,7 +11,7 @@ theorem exercise3a : ∃ m n : ℤ, m ^ 2 - n ^ 2 = 11 := by
   numbers
 
 --Example 2.5.6
-/- 2 points -/
+@[autograded 2]
 theorem exercise3b (a : ℤ) : ∃ m n : ℤ, m ^ 2 - n ^ 2 = 2 * a + 1 := by
   use a + 1, a
   ring
